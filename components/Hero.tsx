@@ -20,8 +20,8 @@ const Hero = () => {
           <Button variant="default" className="bg-blue-600 text-white px-5 py-3 rounded-md hover:bg-blue-700 transition">
             Explore Now
           </Button>
-          <Button variant="ghost">
-            My Portfolio <MoveUpRight />
+          <Button variant="ghost" className="group">
+            My Portfolio <MoveUpRight className="transition-transform duration-200 group-hover:translate-x-1" />
           </Button>
         </div>
       </div>
