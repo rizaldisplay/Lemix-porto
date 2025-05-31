@@ -7,6 +7,7 @@ import pulseLogo from "@/public/assets/logo-pulse.png";
 import apexLogo from "@/public/assets/logo-apex.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { Separator } from "@/components/ui/separator";
 
 const Brands = () => {
   return (

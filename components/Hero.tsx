@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import { MoveUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
             Explore Now
           </Button>
           <Button variant="ghost" className="group">
-            My Portfolio <MoveUpRight className="transition-transform duration-200 group-hover:translate-x-1" />
+            My Portfolio <ArrowUpRight className="transition-transform duration-200 group-hover:translate-x-1" />
           </Button>
         </div>
       </div>
