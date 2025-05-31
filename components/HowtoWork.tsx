@@ -17,12 +17,6 @@ const images = [
   { src: "/assets/reason-4.jpg", yOffset: "mt-0" },
 ];
 
-// const images = [
-//   "/assets/reason-1.jpg",
-//   "/assets/reason-2.jpg",
-//   "/assets/reason-3.jpg",
-//   "/assets/reason-4.jpg",
-// ];
 
 const HowtoWork = () => {
   return (

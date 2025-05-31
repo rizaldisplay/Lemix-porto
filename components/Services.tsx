@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { CircleCheck } from "lucide-react";
 
 const services = [
   {
@@ -25,7 +26,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="mx-0 md:mx-20 lg:mx-10 my-10">
+    <section className="mx-0 lg:mx-10 my-10 lg:px-10 md:px-5 px-6">
       <div className="bg-gray-100 rounded-3xl mx-10 py-10 px-6">
         <h2 className="text-center text-3xl font-bold mb-10">
           Menawarkan Jasa
@@ -52,11 +53,11 @@ const Services = () => {
                 <ul className="text-sm space-y-1">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center gap-2">
-                      <span className="text-black text-xl">•</span> {feature}
+                      <CircleCheck className="text-gray-600" /> {feature}
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full">Pesan</Button>
+                <Button variant="default" className="w-full/2 rounded-2xl mx-2 my-4">Pesan</Button>
               </CardContent>
             </Card>
           ))}
