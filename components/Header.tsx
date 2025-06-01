@@ -28,6 +28,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const Header = () => {
   const [selectedLanguage, setSelectedLanguage] = useState("Ina");
@@ -137,7 +138,7 @@ const Header = () => {
                       variant="outline"
                       className="flex items-center gap-2"
                     >
-                      <img
+                      <Image
                         src={imgLanguage}
                         alt="img flag"
                         width={24}
@@ -160,7 +161,7 @@ const Header = () => {
                         ]}
                       >
                         <div className="flex items-center gap-2">
-                          <img
+                          <Image
                             src={`/assets/id.svg`}
                             alt="Indonesia Flag"
                             width={24}
@@ -178,7 +179,7 @@ const Header = () => {
                         ]}
                       >
                         <div className="flex items-center gap-2">
-                          <img
+                          <Image
                             src={`assets/gb.svg`}
                             alt="England Flag"
                             width={24}
