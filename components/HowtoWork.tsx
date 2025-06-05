@@ -20,7 +20,7 @@ const images = [
 
 const HowtoWork = () => {
   return (
-    <section className="mx-0 md:mx-20 lg:mx-10 my-10">
+    <section className="mx-0 md:mx-20 lg:mx-10 my-10 md:px-5">
       <div className="max-w-6xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Images grid with vertical offset */}
         <div className="grid grid-cols-2 gap-4">

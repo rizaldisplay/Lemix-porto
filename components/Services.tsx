@@ -26,8 +26,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="mx-0 lg:mx-10 my-10 lg:px-10 md:px-5 px-6">
-      <div className="bg-gray-100 rounded-3xl mx-10 py-10 px-6">
+    <section className="mx-0 lg:mx-10 my-10 lg:px-10 md:px-5 px-2">
+      <div className="bg-gray-100 rounded-3xl mx-2 py-10 px-5">
         <h2 className="text-center text-3xl font-bold mb-10">
           Menawarkan Jasa
         </h2>

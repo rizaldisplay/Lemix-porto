@@ -18,7 +18,7 @@ type MobileMenuProps = {
 
 const MobileMenu = ({ navMenu }: MobileMenuProps) => {
   return (
-    <div>
+    <nav>
       <ul className='mb-3'>
         {navMenu.map(({ href, label, submenu }, index) => (
           <li key={index} className='w-full'>
@@ -69,7 +69,7 @@ const MobileMenu = ({ navMenu }: MobileMenuProps) => {
           Free Trial
         </Button>
       </div>
-    </div >
+    </nav >
   )
 }
 
