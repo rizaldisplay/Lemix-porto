@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { Star } from "lucide-react";
+// import { Star } from "lucide-react";
 
 const projects = [
   {
@@ -71,17 +71,17 @@ const Projects = () => {
                 <p className="text-blue-700 font-medium">{project.category}</p>
 
                 {/* Stars */}
-                <div className="flex text-yellow-500">
+                {/* <div className="flex text-yellow-500">
                   {Array.from({ length: project.rating }).map((_, j) => (
                     <Star key={j} className="w-5 h-5 fill-yellow-500" />
                   ))}
-                </div>
+                </div> */}
 
                 <p className="text-gray-700 leading-relaxed">
                   {project.description}
                 </p>
 
-                <div className="flex items-center gap-3 pt-4">
+                {/* <div className="flex items-center gap-3 pt-4">
                   <Image
                     src={project.person.avatar}
                     alt={project.person.name}
@@ -97,7 +97,7 @@ const Projects = () => {
                       {project.person.role}
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

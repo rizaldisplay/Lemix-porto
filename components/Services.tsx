@@ -35,7 +35,7 @@ const Services = () => {
           {services.map((service, index) => (
             <Card
               key={index}
-              className="shadow-2xl rounded-2xl overflow-hidden mt-6 mb-3">
+              className="shadow-2xl rounded-2xl overflow-hidden mt-6 mb-3 pt-0 pb-0">
               <div className="relative w-full h-68">
                 <Image
                   src={service.image}

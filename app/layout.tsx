@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const interFont = Inter({
   variable: "--font-inter",
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${interFont.variable} antialiased`}
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );

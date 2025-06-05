@@ -23,10 +23,12 @@ const Hero = () => {
           >
             Explore Now
           </Button>
-          <Button variant="ghost" className="group">
-            My Portfolio{" "}
-            <ArrowUpRight className="transition-transform duration-200 group-hover:translate-x-1" />
-          </Button>
+          <a href="https://drive.google.com/file/d/1C51NXvZT-U7ylOSBHJ1vKiYY9RE2pV-3/view?usp=sharing" target="_blank" download>
+            <Button variant="ghost" className="group">
+              My Portfolio{" "}
+              <ArrowUpRight className="transition-transform duration-200 group-hover:translate-x-1" />
+            </Button>
+          </a>
         </div>
       </div>
 

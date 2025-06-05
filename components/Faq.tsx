@@ -7,7 +7,7 @@ import {
 
 export default function FAQ() {
   return (
-    <section className="bg-white py-16 mx-0 md:mx-20 lg:mx-10 my-10">
+    <section className="bg-white py-16 mx-0 md:mx-20 lg:mx-10 my-10 md:px-5 px-2">
       <div className="max-w-4xl mx-auto px-4 md:px-0 grid md:grid-cols-2 gap-10">
         {/* Left Column - Heading */}
         <div>

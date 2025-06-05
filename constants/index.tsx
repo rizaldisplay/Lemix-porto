@@ -240,119 +240,119 @@ export const navMenu: MenuItem[] = [
 //   text: 'Start tracking your user analytics to boost your business',
 // };
 
-// // Footer
-// export const footerData = {
-//   links: [
-//     {
-//       title: 'Product',
-//       items: [
-//         {
-//           href: '#',
-//           label: 'Components',
-//         },
-//         {
-//           href: '#',
-//           label: 'Pricing',
-//         },
-//         {
-//           href: '#',
-//           label: 'Dashboard',
-//         },
-//         {
-//           href: '#',
-//           label: 'Feature requests',
-//         },
-//       ],
-//     },
-//     {
-//       title: 'Developers',
-//       items: [
-//         {
-//           href: '#',
-//           label: 'Documentation',
-//         },
-//         {
-//           href: '#',
-//           label: 'Discord server',
-//         },
-//         {
-//           href: '#',
-//           label: 'Support',
-//         },
-//         {
-//           href: '#',
-//           label: 'Glossary',
-//         },
-//         {
-//           href: '#',
-//           label: 'Changelog',
-//         },
-//       ],
-//     },
-//     {
-//       title: 'Company',
-//       items: [
-//         {
-//           href: '#',
-//           label: 'About',
-//         },
-//         {
-//           href: '#',
-//           label: 'Careers',
-//         },
-//         {
-//           href: '#',
-//           label: 'Blog',
-//         },
-//         {
-//           href: '#',
-//           label: 'Contact',
-//         },
-//       ],
-//     },
-//     {
-//       title: 'Legal',
-//       items: [
-//         {
-//           href: '#',
-//           label: 'Terms and Conditions',
-//         },
-//         {
-//           href: '#',
-//           label: 'Privacy Policy',
-//         },
-//         {
-//           href: '#',
-//           label: 'Data Processing Agreement',
-//         },
-//         {
-//           href: '#',
-//           label: 'Cookie manager',
-//         },
-//       ],
-//     },
-//   ],
-//   copyright: '© 2024 codewithsadee',
-//   socialLinks: [
-//     {
-//       href: 'https://x.com/codewithsadee_',
-//       icon: <Twitter size={18} />,
-//     },
-//     {
-//       href: 'https://github.com/codewithsadee',
-//       icon: <Github size={18} />,
-//     },
-//     {
-//       href: 'https://www.linkedin.com/in/codewithsadee/',
-//       icon: <Linkedin size={18} />,
-//     },
-//     {
-//       href: 'https://www.instagram.com/codewithsadee',
-//       icon: <Instagram size={18} />,
-//     },
-//     {
-//       href: 'https://www.youtube.com/codewithsadee',
-//       icon: <Youtube size={18} />,
-//     },
-//   ],
-// };
+// Footer
+export const footerData = {
+  links: [
+    {
+      title: 'Product',
+      items: [
+        {
+          href: '#',
+          label: 'Components',
+        },
+        {
+          href: '#',
+          label: 'Pricing',
+        },
+        {
+          href: '#',
+          label: 'Dashboard',
+        },
+        {
+          href: '#',
+          label: 'Feature requests',
+        },
+      ],
+    },
+    {
+      title: 'Developers',
+      items: [
+        {
+          href: '#',
+          label: 'Documentation',
+        },
+        {
+          href: '#',
+          label: 'Discord server',
+        },
+        {
+          href: '#',
+          label: 'Support',
+        },
+        {
+          href: '#',
+          label: 'Glossary',
+        },
+        {
+          href: '#',
+          label: 'Changelog',
+        },
+      ],
+    },
+    {
+      title: 'Company',
+      items: [
+        {
+          href: '#',
+          label: 'About',
+        },
+        {
+          href: '#',
+          label: 'Careers',
+        },
+        {
+          href: '#',
+          label: 'Blog',
+        },
+        {
+          href: '#',
+          label: 'Contact',
+        },
+      ],
+    },
+    {
+      title: 'Legal',
+      items: [
+        {
+          href: '#',
+          label: 'Terms and Conditions',
+        },
+        {
+          href: '#',
+          label: 'Privacy Policy',
+        },
+        {
+          href: '#',
+          label: 'Data Processing Agreement',
+        },
+        {
+          href: '#',
+          label: 'Cookie manager',
+        },
+      ],
+    },
+  ],
+  copyright: '© 2024 codewithsadee',
+  socialLinks: [
+    {
+      href: 'https://x.com/codewithsadee_',
+      icon: <Twitter size={18} />,
+    },
+    {
+      href: 'https://github.com/codewithsadee',
+      icon: <Github size={18} />,
+    },
+    {
+      href: 'https://www.linkedin.com/in/codewithsadee/',
+      icon: <Linkedin size={18} />,
+    },
+    {
+      href: 'https://www.instagram.com/codewithsadee',
+      icon: <Instagram size={18} />,
+    },
+    {
+      href: 'https://www.youtube.com/codewithsadee',
+      icon: <Youtube size={18} />,
+    },
+  ],
+};

@@ -42,7 +42,7 @@ const HowtoWork = () => {
 
         {/* Right: Text and features */}
         <div className="space-y-5">
-          <p className="text-sm text-gray-500">Reasons Why</p>
+          <p className="text-sm lg:text-2xl md:text-xl text-gray-500">Reasons Why</p>
           <h2 className="text-2xl font-bold leading-snug">
             I Might Great <br />
             For Your Business
@@ -51,7 +51,7 @@ const HowtoWork = () => {
             {features.map((item, index) => (
               <li key={index} className="flex items-start gap-3">
                 <CheckCircle className="text-blue-600 w-5 h-5 mt-1" />
-                <span className="text-gray-700">{item}</span>
+                <span className="text-gray-700 text-sm md:text-base lg:text-lg">{item}</span>
               </li>
             ))}
           </ul>
