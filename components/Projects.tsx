@@ -1,34 +1,52 @@
 import React from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import { Button } from "./ui/button";
+import { link } from "fs";
 // import { Star } from "lucide-react";
 
 const projects = [
   {
-    title: "HRIS Dashboard",
-    category: "Website Development",
+    title: "Analytix Dashboard",
+    category: "Landing Page • Dashboard",
     rating: 5,
     description:
       "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
-    image: "/assets/project-1.png",
+    image: "/assets/proyek-1.png",
     person: {
       name: "Mumu",
       role: "Designer at HRIS",
       avatar: "/images/mumu.png",
     },
+    link: "https://landing-page-saas-analytic.vercel.app",
   },
   {
-    title: "FoodFast App",
-    category: "UI/UX Design • App Development",
+    title: "Elevalte Ai Management",
+    category: "Artificial Intelligence • Landing Page",
     rating: 5,
     description:
       "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
-    image: "/assets/project-2.png",
+    image: "/assets/proyek-2.png",
     person: {
       name: "Mumu",
       role: "Designer at HRIS",
       avatar: "/images/mumu.png",
     },
+    link: "https://techno-gear-saas.vercel.app",
+  },
+   {
+    title: "Finwise Finance App",
+    category: "Landing Page",
+    rating: 5,
+    description:
+      "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
+    image: "/assets/proyek-3.png",
+    person: {
+      name: "Mumu",
+      role: "Designer at HRIS",
+      avatar: "/images/mumu.png",
+    },
+    link: "https://finwise-mu.vercel.app",
   },
 ];
 
@@ -81,23 +99,22 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                {/* <div className="flex items-center gap-3 pt-4">
-                  <Image
-                    src={project.person.avatar}
-                    alt={project.person.name}
-                    width={40}
-                    height={40}
-                    className="rounded-full"
-                  />
-                  <div>
-                    <p className="font-semibold text-sm">
-                      {project.person.name}
-                    </p>
-                    <p className="text-gray-500 text-sm">
-                      {project.person.role}
-                    </p>
-                  </div>
-                </div> */}
+                <div className="flex items-center gap-3 pt-4">
+                  <a
+                    href={project.link}
+                    className="flex items-center"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      variant="outline"
+                      className="text-blue-700 border-blue-700 hover:bg-blue-700 hover:text-white flex items-center"
+                    >
+                      <span>View Project</span>
+                      <ArrowUpRight className="w-4 h-4 ml-1" />
+                    </Button>
+                  </a>
+                </div> 
               </div>
             </div>
           ))}
