@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
-import { link } from "fs";
-// import { Star } from "lucide-react";
 
 const projects = [
   {
