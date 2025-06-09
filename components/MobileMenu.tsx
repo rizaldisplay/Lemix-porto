@@ -62,11 +62,11 @@ const MobileMenu = ({ navMenu }: MobileMenuProps) => {
 
       <Separator className='bg-muted-foreground/20' />
       <div className='flex items-center gap-2 mt-4'>
-        <Button variant='ghost' className='w-1/2 h-10 px-4'>
+        {/* <Button variant='ghost' className='w-1/2 h-10 px-4'>
           Sign In
-        </Button>
+        </Button> */}
         <Button variant='ghost' className='w-1/2 h-10 px-4 text-white bg-indigo-600 hover:bg-indigo-700'>
-          Free Trial
+          Contact Us
         </Button>
       </div>
     </nav >

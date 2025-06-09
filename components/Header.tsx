@@ -35,7 +35,7 @@ const Header = () => {
   const [imgLanguage, setImgLanguage] = useState("/assets/id.svg");
 
   return (
-    <header className="sticky top-0 backdrop-blur-sm z-20 bg-background/50 border-b border-foreground/5">
+    <header id="home" className="sticky top-0 backdrop-blur-sm z-20 bg-background/50 border-b border-foreground/5">
       <div className="mx-0 md:mx-20 lg:mx-20">
         <div className="h-14 grid grid-cols-1 items-center md:h-18 lg:h-20 ">
           <div className="container flex justify-between lg:gap-4 items-center h-full">

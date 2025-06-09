@@ -1,36 +1,44 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CircleCheck } from "lucide-react";
+import { CircleCheck, CornerRightDown } from "lucide-react";
 
 const services = [
   {
     title: "Landing Page",
-    price: "Mulai Rp 800.000",
-    features: ["Website Template", "Gratis Domain dan Hosting 1 Tahun"],
+    price: "Mulai Rp 600.000",
+    discount: 50,
+    features: ["1 Halaman Landing Page", "Desain Mobile-Friendly", "Call to Action (CTA) WhatsApp", "Integrasi Media Sosial", "Basic SEO (Meta tag + Struktur heading)", "Hosting & Domain Gratis 1 Tahun"],
     image: "/assets/service-1.png",
   },
   {
     title: "Web Custom",
-    price: "Mulai Rp 3.000.000",
-    features: ["Website Template", "Gratis Domain dan Hosting 1 Tahun"],
+    price: "Mulai Rp 3.000.000 ~ 5.000.000",
+    discount: 20,
+    features: ["Desain Mobile-Friendly", "Call to Action (CTA) WhatsApp", "Integrasi Media Sosial", "Basic SEO (Meta tag + Struktur heading)", "Hosting & Custom Domain Gratis 1 Tahun", "Google Analytics + Facebook Pixel", "1x Revisi Desain", "Copywriting Dasar (Teks jualan singkat dan menarik)"],
     image: "/assets/service-2.png",
   },
   {
     title: "Mobile Apps",
-    price: "Mulai Rp 4.000.000",
-    features: ["Website Template", "Gratis Domain dan Hosting 1 Tahun"],
+    price: "Mulai Rp 5.000.000 ~ 10.000.000",
+    discount: 0,
+    features: ["Analisa Kebutuhan & Konsultasi Gratis", "Desain UI/UX Profesional", "Pengembangan Aplikasi (Android/iOS)", "Fitur-Fitur Aplikasi yang Bisa Anda Pilih", "Dashboard Admin", "Testing & Quality Assurance", "Publikasi & Support"],
     image: "/assets/service-3.png",
   },
 ];
 
 const Services = () => {
   return (
-    <section className="mx-0 lg:mx-10 my-10 lg:px-10 md:px-5 px-2">
-      <div className="bg-gray-100 rounded-3xl mx-2 py-10 px-5">
-        <h2 className="text-center text-3xl font-bold mb-10">
-          Menawarkan Jasa
-        </h2>
+    <section id="services" className="mx-0 lg:mx-10 my-10 lg:px-10 md:px-5 px-2">
+      <div className="bg-gray-100 rounded-3xl mt-2 py-10 px-5">
+        <div className="text-center">
+          <h1 className="text-center text-3xl font-bold mb-10">
+            Digitalin Bisnis Kamu.
+          </h1>
+          <h2>
+            Mulai dari Sini <CornerRightDown />
+          </h2>
+        </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <Card
@@ -57,7 +65,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <Button variant="default" className="w-full/2 rounded-2xl mx-2 my-4">Pesan</Button>
+                {/* <Button variant="default" className="w-full/2 rounded-2xl mx-2 my-4">Pesan</Button> */}
               </CardContent>
             </Card>
           ))}

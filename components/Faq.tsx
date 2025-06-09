@@ -7,7 +7,7 @@ import {
 
 export default function FAQ() {
   return (
-    <section className="bg-white py-16 mx-0 md:mx-20 lg:mx-10 my-10 md:px-5 px-2">
+    <section id="faq" className="bg-white py-16 mx-0 md:mx-20 lg:mx-10 my-10 md:px-5 px-2">
       <div className="max-w-4xl mx-auto px-4 md:px-0 grid md:grid-cols-2 gap-10">
         {/* Left Column - Heading */}
         <div>
@@ -20,29 +20,29 @@ export default function FAQ() {
           <Accordion type="single" collapsible defaultValue="item-2" className="space-y-4">
             <AccordionItem value="item-1">
               <AccordionTrigger>Bagaimana cara Lemix bekerja?</AccordionTrigger>
-              <AccordionContent></AccordionContent>
+              <AccordionContent>Konsultasi gratis → Deal & Proposal → Desain & Pembuatan → Launching & Support.</AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2">
               <AccordionTrigger>Klien perlu mempersiapkan apa saja?</AccordionTrigger>
               <AccordionContent>
-                Sebelum projek dimulai, baiknya mengirimkan sebuah <strong>Product Requirements Document</strong> yang di dalamnya nanti berisi rincian fitur, harga, dan waktu pengerjaan.
+               Cukup siapkan deskripsi bisnis, aset visual (logo/gambar), dan referensi jika ada—semua bisa dikirim dalam satu dokumen ringkas (PRD).
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3">
-              <AccordionTrigger>Apakah menerima projek jangka panjang?</AccordionTrigger>
-              <AccordionContent></AccordionContent>
+              <AccordionTrigger>Apakah layanan bisa diperpanjang setelah 1 tahun?</AccordionTrigger>
+              <AccordionContent>Ya, layanan bisa diperpanjang. Klien hanya perlu membayar biaya domain dan hosting untuk melanjutkan penggunaan website.</AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4">
-              <AccordionTrigger>Apakah bisa bekerja dari kantor?</AccordionTrigger>
-              <AccordionContent></AccordionContent>
+              <AccordionTrigger>Apakah bisa melakukan pembahasan secara offline?</AccordionTrigger>
+              <AccordionContent>Bisa. Kami melayani pertemuan langsung di area Malang, Pasuruan, dan Surabaya. Di luar area tersebut, pembahasan bisa dilakukan via Zoom Meeting.</AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5">
-              <AccordionTrigger>Kenapa kami perlu merekrut Shayna?</AccordionTrigger>
-              <AccordionContent></AccordionContent>
+              <AccordionTrigger>Berapa lama proses pengerjaan website?</AccordionTrigger>
+              <AccordionContent>Rata-rata waktu pengerjaan adalah 3–7 hari kerja, tergantung kompleksitas desain dan kelengkapan materi dari klien.</AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>

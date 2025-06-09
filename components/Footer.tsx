@@ -4,7 +4,7 @@ import { footerData } from '@/constants';
 export default function Footer() {
   return (
     <section
-      className="relative bg-cover bg-center text-white py-24 text-center"
+      className="relative bg-cover bg-center text-white py-15 text-center"
       style={{
         backgroundImage: "url('/assets/footer.png')",
       }}
@@ -41,8 +41,7 @@ export default function Footer() {
           </span>
         </h1>
         <p className="text-sm md:text-base text-muted-foreground mt-6 max-w-xl mx-auto">
-          Working only with the best, to ensure the quality of our services, and
-          to bring state of the art technology to those who need it.
+          Bersama yang terbaik, kami menghadirkan layanan berkualitas dan teknologi terdepan bagi mereka yang membutuhkannya.
         </p>
       </div>
 

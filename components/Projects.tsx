@@ -9,7 +9,8 @@ const projects = [
     category: "Landing Page • Dashboard",
     rating: 5,
     description:
-      "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
+      // "Landing Page SaaS Analytic adalah solusi desain responsif dan elegan untuk mempromosikan layanan analitik berbasis cloud. Dibangun dengan tampilan yang clean, interaktif, dan user-friendly, template ini cocok untuk startup, bisnis SaaS, atau agensi digital yang ingin menonjolkan fitur analitik, keunggulan produk, serta konversi pengunjung.",
+      "Promosikan Layanan Analitikmu dengan Tampilan Modern & Responsif. Cocok untuk SaaS, startup, dan agensi digital.",
     image: "/assets/proyek-1.png",
     person: {
       name: "Mumu",
@@ -19,11 +20,12 @@ const projects = [
     link: "https://landing-page-saas-analytic.vercel.app",
   },
   {
-    title: "Elevalte Ai Management",
+    title: "Elevalte AI Management",
     category: "Artificial Intelligence • Landing Page",
     rating: 5,
     description:
-      "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
+      // "Techno Gear SaaS adalah landing page modern yang dirancang untuk mempromosikan solusi teknologi atau alat berbasis SaaS (Software as a Service) dengan nuansa futuristik dan tech-driven. Desainnya menonjolkan kesan inovatif, cocok untuk produk digital seperti tool manajemen, automasi, atau platform IT.",
+      "Tampilkan Produk SaaS-mu dengan Gaya Futuristik & Inovatif. Ideal untuk platform teknologi, automasi, dan manajemen.",
     image: "/assets/proyek-2.png",
     person: {
       name: "Mumu",
@@ -37,7 +39,8 @@ const projects = [
     category: "Landing Page",
     rating: 5,
     description:
-      "Shayna was quick learner to complete the project without having obstacle and I think she was full of experience.",
+      // "FinWise adalah sebuah landing page modern yang dirancang khusus untuk layanan keuangan, fintech, atau aplikasi manajemen keuangan pribadi berbasis SaaS. Dengan desain yang clean dan profesional, template ini sangat cocok untuk mempromosikan solusi keuangan digital, investasi, atau alat perencanaan finansial.",
+      "Solusi Finansial Digital Butuh Tampilan Profesional. FinWise hadir untuk fintech, investasi, dan aplikasi keuangan.",
     image: "/assets/proyek-3.png",
     person: {
       name: "Mumu",
@@ -50,7 +53,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className="mx-0 md:mx-20 lg:mx-10 my-10">
+    <section id="porfolio" className="mx-0 md:mx-20 lg:mx-10 my-10">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <div className="flex justify-between items-center mb-8">
           <div>
@@ -93,7 +96,7 @@ const Projects = () => {
                   ))}
                 </div> */}
 
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed text-justify">
                   {project.description}
                 </p>
 

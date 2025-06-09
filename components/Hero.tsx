@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { ArrowUpRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -17,12 +18,14 @@ const Hero = () => {
           tumbuh lebih besar
         </p>
         <div className="flex gap-4">
-          <Button
-            variant="default"
-            className="bg-blue-600 text-white px-5 py-3 rounded-md hover:bg-blue-700 transition"
-          >
-            Explore Now
-          </Button>
+          <Link href="#services">
+            <Button
+              variant="default"
+              className="bg-blue-600 text-white px-5 py-3 rounded-md hover:bg-blue-700 transition"
+            >
+              Explore Now
+            </Button>
+          </Link>
           <a href="https://drive.google.com/file/d/1C51NXvZT-U7ylOSBHJ1vKiYY9RE2pV-3/view?usp=sharing" target="_blank" download>
             <Button variant="ghost" className="group">
               My Portfolio{" "}

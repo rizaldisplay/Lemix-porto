@@ -1,13 +1,14 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
+import Link from "next/link";
 
 const features = [
-  "I do design and code for better quality",
-  "I do value teamwork and leadership",
-  "I always start project from research",
-  "I validate UX with usability-testing",
-  "I always create a documentation",
+  "Kami bangun solusi yang meaningful, bukan cuma cantik",
+  "Setiap proyek dimulai dari riset mendalam",
+  "Kami bekerja seperti tim internal Anda",
+  "UX diuji langsung ke pengguna, bukan asumsi",
+  "Semua proses terdokumentasi—mudah untuk scaling",
 ];
 
 const images = [
@@ -55,7 +56,9 @@ const HowtoWork = () => {
               </li>
             ))}
           </ul>
-          <Button className="bg-blue-600 hover:bg-blue-700">Explore Now</Button>
+          <Link href={"#portfolio"}>
+            <Button className="bg-blue-600 hover:bg-blue-700">Explore Now</Button>
+          </Link>
         </div>
       </div>
     </section>

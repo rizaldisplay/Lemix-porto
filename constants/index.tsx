@@ -64,20 +64,20 @@ export const DataImage = {
 // Header
 export const navMenu: MenuItem[] = [
   {
-    href: '/home',
+    href: '#home',
     label: 'Home',
   },
   {
-    href: '/company',
-    label: 'Company',
+    href: '#services',
+    label: 'Services',
   },
   {
-    href: '/porfolio',
+    href: '#portfolio',
     label: 'Portfolio',
   },
   {
-    href: '/blog',
-    label: 'Blog',
+    href: '#faq',
+    label: 'FAQ',
   },
 ];
 
