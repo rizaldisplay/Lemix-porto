@@ -71,7 +71,7 @@ const Services = () => {
             Pilih layanan yang sesuai dan mulai skalakan bisnismu sekarang!
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 max-w-6xl mx-auto">
+        <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <Card
               key={index}
@@ -134,7 +134,7 @@ const Services = () => {
                     )}
                   </div>
                 </div>
-                <ul className="text-sm space-y-1">
+                <ul className="text-sm space-y-2">
                   {service.features.map((feature, i) => (
                     <li key={i} className="flex items-center gap-2">
                       <CircleCheck
@@ -148,22 +148,6 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                {/* <div className="mt-auto">
-                  <button
-                    className={`${
-                      service.id == 1
-                        ? "bg-orange-500 hover:bg-orange-600 text-white"
-                        : "bg-blue-500 hover:bg-blue-600 text-white"
-                    } ${
-                      service.id == 2
-                        ? "bg-green-500 hover:bg-green-600 text-white"
-                        : "bg-blue-500 hover:bg-blue-600 text-white"
-                    }  px-6 py-2 rounded-full font-semibold w-full`}
-                  >
-                    Konsultasi Gratis
-                  </button>
-                </div> */}
-                {/* <Button variant="default" className="w-full/2 rounded-2xl mx-2 my-4">Pesan</Button> */}
               </CardContent>
             </Card>
           ))}

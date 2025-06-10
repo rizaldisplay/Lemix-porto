@@ -34,6 +34,8 @@ import {
   Linkedin,
   Instagram,
   Youtube,
+  Facebook,
+  
 } from 'lucide-react';
 
 import Proyek1 from "@/public/assets/proyek1.webp";
@@ -350,11 +352,7 @@ export const footerData = {
   socialLinks: [
     {
       href: 'https://x.com/codewithsadee_',
-      icon: <Twitter size={18} />,
-    },
-    {
-      href: 'https://github.com/codewithsadee',
-      icon: <Github size={18} />,
+      icon: <Facebook size={18} />,
     },
     {
       href: 'https://www.linkedin.com/in/codewithsadee/',

@@ -1,21 +1,21 @@
 "use client";
-import { useState } from "react";
+// import { useState } from "react";
 import { Button } from "./ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Menu, ArrowRight } from "lucide-react";
 import { navMenu } from "@/constants";
 import Logo from "@/components/Logo";
 import MobileMenu from "@/components/MobileMenu";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { ChevronDown } from "lucide-react";
+// import {
+//   DropdownMenu,
+//   DropdownMenuContent,
+//   DropdownMenuGroup,
+//   DropdownMenuItem,
+//   DropdownMenuLabel,
+//   DropdownMenuSeparator,
+//   DropdownMenuTrigger,
+// } from "@/components/ui/dropdown-menu";
+// import { ChevronDown } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 import {
@@ -28,11 +28,11 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Header = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("Ina");
-  const [imgLanguage, setImgLanguage] = useState("/assets/id.svg");
+  // const [selectedLanguage, setSelectedLanguage] = useState("Ina");
+  // const [imgLanguage, setImgLanguage] = useState("/assets/id.svg");
 
   return (
     <header
@@ -135,7 +135,7 @@ const Header = () => {
 
               <div className="flex items-center gap-2 justify-end max-lg:hidden">
                 {/* menu language */}
-                <DropdownMenu>
+                {/* <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button
                       variant="outline"
@@ -195,7 +195,7 @@ const Header = () => {
                       </DropdownMenuItem>
                     </DropdownMenuGroup>
                   </DropdownMenuContent>
-                </DropdownMenu>
+                </DropdownMenu> */}
 
                 {/* button contact us */}
                 <Button
