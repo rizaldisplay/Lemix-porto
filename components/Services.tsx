@@ -39,7 +39,7 @@ const services = [
   {
     id: 3,
     title: "Mobile Apps",
-    price: "Mulai Rp 5.000.000",
+    price: "Mulai Rp 5 Juta",
     discount: false,
     perbulan: false,
     features: [
