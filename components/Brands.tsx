@@ -5,6 +5,18 @@ import echoLogo from "@/public/assets/logo-echo.png";
 import celestialLogo from "@/public/assets/logo-celestial.png";
 import pulseLogo from "@/public/assets/logo-pulse.png";
 import apexLogo from "@/public/assets/logo-apex.png";
+
+import figma from "@/public/assets/img_logo/figma.svg";
+import nextLogo from "@/public/assets/img_logo/next-js.svg";
+import reactLogo from "@/public/assets/img_logo/react.svg";
+import tailwindLogo from "@/public/assets/img_logo/tailwind.svg";
+import flutter from "@/public/assets/img_logo/flutter.svg";
+import javascriptLogo from "@/public/assets/img_logo/js.svg";
+import nginx from "@/public/assets/img_logo/nginx.svg";
+import php from "@/public/assets/img_logo/php.svg";
+import python from "@/public/assets/img_logo/python.svg";
+import laravel from "@/public/assets/img_logo/laravel.svg";
+import postgresql from "@/public/assets/img_logo/postgresql.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
