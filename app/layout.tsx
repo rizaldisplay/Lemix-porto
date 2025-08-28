@@ -26,39 +26,39 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
-
+  
   return (
     <html lang="en">
       <head>
-        {GA_ID && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-              strategy="afterInteractive"
-            />
-            <Script id="ga-init" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${GA_ID}');
-              `}
-            </Script>
-          </>
-        )}
-        {/* Chatbase Embed */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-        window.chatbaseConfig = {
-          chatbotId: "gUNSVJVLerPJY_FH-hriR",
-        };
-      `,
-          }}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-W1MBQWZ87L"
+          strategy="afterInteractive"
         />
-        <script src="https://www.chatbase.co/embed.min.js" defer></script>
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="53dde39c-dcef-45ff-94fe-7577faefc386"></script>
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W1MBQWZ87L');
+          `}
+        </Script>
+        {/* Chatbase Embed */}
+        <Script id="chatbase-config" strategy="afterInteractive">
+          {`
+            window.chatbaseConfig = {
+              chatbotId: "gUNSVJVLerPJY_FH-hriR",
+            };
+          `}
+        </Script>
+        <Script
+          src="https://www.chatbase.co/embed.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id="53dde39c-dcef-45ff-94fe-7577faefc386"
+          strategy="afterInteractive"
+        />
       </head>
       <body className={`${interFont.variable} antialiased`}>
         {children}
