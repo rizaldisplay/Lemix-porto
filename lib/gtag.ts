@@ -13,7 +13,7 @@ export const pageview = (url: string) => {
   });
 };
 
-export const event = (action: string, params: Record<string, any> = {}) => {
+export const event = (action: string, params: Record<string, unknown> = {}) => {
   if (!GA_ID) return;
   window.gtag('event', action, params);
 };
